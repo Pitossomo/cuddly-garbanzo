@@ -233,3 +233,15 @@ header .menu {
   display: block;
   background-color: #122A57;
 }
+
+footer {
+  background-color: #122A57;
+  height: 70px;
+}
+
+footer .footer {
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+
+}
