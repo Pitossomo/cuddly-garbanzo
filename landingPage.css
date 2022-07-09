@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+div img {
+  display: block;
+  width: 100%;
+}
+
+.flexContainer {
+  display: flex;
+  max-width: 992px;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+header {
+  background-color: #122A57;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+}
+
+header .listItems {
+  display: flex;
+  width: 100%;
+  max-width: 260px;
+  justify-content: space-between;
+}
+
+.listItems li a {
+  color: #fff;
+}
+
+header .menu {
+  justify-content: space-between
+}
+
+.screen {
+  min-height: 70vh;
+  padding: 10px;
+}
+
+.presentation {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.presentationText {
+  min-height: 200px;
+}
+
+.presentationText h1 {
+  color: #122A57;
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.presentationText h2 {
+  color: #122A57;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.presentationText a {
+  background-color: #122A57;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  width: 220px;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px 0;
+  text-decoration: none;
+  display: block;
+}
+
+.presentationText p {
+  line-height: 1.8em;
+}
+
+#quem-somos {
+  flex-direction: row-reverse;
+}
+
+#quem-somos h2 {
+  display: flex;
+}
+
+#quem-somos h2:before {
+  content: "";
+  height: 40px;
+  width: 5px;
+  margin-right: 5px;
+  background-color: #122A57;
+}
+
+#quem-somos p {
+  margin-bottom: 10px;
+  width: 90%
+}
+
+#quem-somos img {
+  width: 420px;
+}
+
+.externalContainer {
+  background-color: #122A57;
+  width: 100%;
+}
+
+#servicos {
+  height: 50vh;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#servicos h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.servicesList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicesList .serviceItem {
+  text-align: center;
+}
+
+.serviceItem p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.serviceItem a {
+  width: 120px;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #122A57;
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.serviceItem img {
+  width: 80%;
+  margin: auto;
+}
