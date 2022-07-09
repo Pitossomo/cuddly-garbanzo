@@ -77,7 +77,13 @@ header .menu {
   margin-bottom: 20px;
 }
 
-.presentationText a {
+.presentationText a {}
+
+.presentationText p {
+  line-height: 1.8em;
+}
+
+.btn {
   background-color: #122A57;
   color: #fff;
   text-align: center;
@@ -88,10 +94,6 @@ header .menu {
   margin: 10px 0;
   text-decoration: none;
   display: block;
-}
-
-.presentationText p {
-  line-height: 1.8em;
 }
 
 #quem-somos {
@@ -172,4 +174,62 @@ header .menu {
 .serviceItem img {
   width: 80%;
   margin: auto;
+}
+
+#plans {
+  flex-direction: column;
+}
+
+#plans h2 {
+  font-size: 32px;
+  padding-top: 70px;
+}
+
+.planList {
+  display: flex;
+  align-items: flex-end;
+}
+
+.planItem {
+  flex: 1;
+  border: 5px solid #122A57;
+  margin: 20px;
+  padding: 10px;
+
+}
+
+.planItem h3 {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+.planItem h3::after {
+  content: "";
+  background-color: #122A57;
+  width: 100%;
+  height: 3px;
+  margin: 20px 0;
+}
+
+.planItem .btn {
+  margin: auto;
+  margin: 20px;
+}
+
+.planItem ul li {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.planItem ul li::before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  display: block;
+  background-color: #122A57;
 }
